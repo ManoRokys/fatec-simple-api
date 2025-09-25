@@ -26,7 +26,7 @@ class FatecSimpleApiApplicationTests {
                 // Para uma String pura, o Spring costuma retornar 'text/plain'
                 .andExpect(content().contentType("text/plain;charset=UTF-8"))
                 // Verifica se o corpo da resposta é EXATAMENTE a string esperada
-                .andExpect(content().string("Bem-vindo a primeira aula de IEC da FATEC!"));
+                .andExpect(content().string("Bem-vindo a primeira aula de SWAG da FATEC!"));
     }
 
     @Test
